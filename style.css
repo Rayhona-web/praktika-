@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #D9D9D9;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    position: fixed;
+    width: 120px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.5s;
+    
+}
+
+nav:hover{
+    width: 234px;
+
+
+}
+
+
+nav:hover ul{
+    margin-left: 0;
+}
+
+nav img{
+    width: 60px;
+}
+ul{
+    transition: 0.5s;
+display: flex;
+flex-direction: column;
+gap: 55px;
+margin-left: 100px;
+/* align-items: center; */
+
+}
+
+li{
+    gap: 36px
+    ;
+display: flex;
+align-items: center;
+}
+.info {
+    background-image: url(photo_2024-09-25_20-25-04.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1110px;
+    height: 500px;
+    border-radius: 15px;
+    margin-left: 200px;
+    margin-top: 20px;
+
+}
+.class{
+    width: 107px;
+    height: 55px;
+    background-color: #3FA5D5;
+    color: white;
+    top: 136px;
+    left: 305px; 
+    position: absolute;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+}
+.psition{
+    position: relative; 
+    margin-top: 101px;
+    padding-top: 60px;
+    
+    
+}
+
+.item {
+   
+    top: 106px;
+    left: 305px; 
+    position: absolute;
+    font-family: "Inter", sans-serif;
+  
+}
+
+
+h2{
+    font-family: "Rubik", sans-serif;
+    font-size: 50px;
+    width: 332px;
+    height: 119px;
+    transition: 0.5;
+    
+}
+p {
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    color: #696868;
+    width: 314px;
+    height: 76px;
+
+}
+
+button {
+    background-color: #3FA5D5;
+    width: 211px;
+    height: 33px;
+    border-radius: 32px;
+    border: none;
+    margin-top: 50px;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    border-width: none;
+}
+.box {
+    background-color:white;
+    color: #3FA5D5;
+    font-size: 20px;
+    border-radius: 8px;
+    font-weight: 400px;
+    font-family: "Rubik", sans-serif;
+    width: 255px;
+    height: 360px;
+    padding-left: 30px;
+    box-shadow: 2px 3px 3px 3px #939393;
+    padding-top: 10px;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 300px;
+}
+.img__header{
+    margin-top: 100px;
+}
+.lorem {
+    background-color: #FFFFFF;
+    color: black;
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight: 400px;
+    font-family: "Rubik", sans-serif;
+    width: 795px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-shadow: 2px 3px 3px 3px #939393;
+    transition: 0.5s;
+    gap: 0px;
+    margin-top: 30px;
+
+}
+
+.input {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight: 400px;
+    font-family: "Rubik", sans-serif;
+    width: 300px;
+    height: 110px;
+    margin-left: 1000px;
+    box-shadow: 2px 3px 3px 3px #939393;
+    
+    
+}
+
+.marketting {
+    background-color: #3FA5D5;
+    width: 1520px;
+    height: 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.all {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 800px;
+}
+
+.market {
+    color: white;
+    font-size: 50px;
+    font-weight: 700px;
+    font-family: "Rubik", sans-serif;
+}
+
+.number {
+    color: white;
+    font-size: 18px;
+    font-weight: 700px;
+    font-family: "Rubik", sans-serif;
+}
